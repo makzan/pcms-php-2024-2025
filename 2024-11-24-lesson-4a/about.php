@@ -2,8 +2,10 @@
 <?php include "menu.php"; ?>
 
 <main>
-    <h1>Welcome</h1>
-    This is the home page.
+    <h1>About</h1>
+    This is the about page.
+
+
 </main>
 
 <?php include "footer.php"; ?>

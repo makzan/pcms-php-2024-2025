@@ -2,8 +2,8 @@
 <?php include "menu.php"; ?>
 
 <main>
-    <h1>Welcome</h1>
-    This is the home page.
+    <h1>Awards</h1>
+    <p>This is the awards page.</p>
 </main>
 
 <?php include "footer.php"; ?>

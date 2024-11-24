@@ -1,9 +1,9 @@
-<?php include "header.php"; ?>
-<?php include "menu.php"; ?>
+<?php include "includes/header.php"; ?>
+<?php include "includes/menu.php"; ?>
 
 <main>
     <h1>Welcome</h1>
     This is the home page.
 </main>
 
-<?php include "footer.php"; ?>
+<?php include "includes/footer.php"; ?>

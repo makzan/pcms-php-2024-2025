@@ -7,6 +7,11 @@
 </head>
 <body>
     <header>LOGO</header>
+    <?php
+        if (isset($_SESSION["name"])) {
+            echo "<p>Hello {$_SESSION["name"]}</p>";
+        }
+    ?>
     <nav>
         <ul>
             <li><a href="?page=home">Home</a></li>
@@ -14,6 +19,7 @@
             <li><a href="?page=awards">Awards</a></li>
             <li><a href="?page=projects">Projects</a></li>
             <li><a href="?page=welcome">Login</a></li>
+            <li><a href="?action=logout">Logout</a></li>
         </ul>
     </nav>
 

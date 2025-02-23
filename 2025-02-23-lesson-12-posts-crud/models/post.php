@@ -51,6 +51,13 @@ function update_post($id, $title, $content) {
     return $stmt->execute();
 }
 
+function delete_post($id) {
+    global $conn;
+    $sql = "DELETE FROM posts WHERE id=$id";
+    $stmt = $conn->prepare($sql);
+    return $stmt->execute();
+}
+
 
 // UPDATE posts SET title='New Title' WHERE posts.id=1
 // DELETE FROM posts WHERE id=1

@@ -31,6 +31,11 @@
 
 <a href="?module=posts&action=edit&id=<?php echo $post["id"] ?>">Edit post</a>
 
+<details>
+    <summary>Delete post</summary>
+    <a href="?module=posts&action=delete&id=<?php echo $post["id"] ?>">Delete post</a>
+</details>
+
 <h2>Leave a comment</h2>
 
 <form action="index.php?module=comments&action=create" method="POST">

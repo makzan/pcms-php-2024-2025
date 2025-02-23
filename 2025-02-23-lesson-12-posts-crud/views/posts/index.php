@@ -9,3 +9,5 @@
         </li>
     <?php endforeach; ?>
 </ul>
+
+<a href="?module=posts&action=new">Create a new post</a>

@@ -29,6 +29,8 @@
     <?php endforeach; ?>
 </ul>
 
+<a href="?module=posts&action=edit&id=<?php echo $post["id"] ?>">Edit post</a>
+
 <h2>Leave a comment</h2>
 
 <form action="index.php?module=comments&action=create" method="POST">
